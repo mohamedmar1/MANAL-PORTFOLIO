@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#090719">
+  <meta name="description" content="Manal — Graphic Designer & Visual Storyteller. Explore brand identities, social media designs and creative campaigns.">
+  <title>MANAL — Beyond the Frame</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <div class="loader" id="loader">
+    <div class="loader-mark">M<span>.</span></div>
+    <div class="loader-line"><span></span></div>
+    <p>CREATING SOMETHING DIFFERENT</p>
+  </div>
+
+  <header class="header" id="header">
+    <a class="brand" href="#home" aria-label="Manal home">
+      <span class="brand-symbol">M<span>.</span></span>
+      <span class="brand-name">MANAL<span>CREATIVE PORTFOLIO</span></span>
+    </a>
+
+    <nav class="nav" id="nav">
+      <a href="#home" data-en="Home" data-ar="الرئيسية">Home</a>
+      <a href="#about" data-en="About" data-ar="من أنا">About</a>
+      <a href="#work" data-en="Works" data-ar="أعمالي">Works</a>
+      <a href="#identity" data-en="Identity" data-ar="الهويات">Identity</a>
+      <a href="#campaigns" data-en="Campaigns" data-ar="الحملات">Campaigns</a>
+      <a href="#contact" data-en="Contact" data-ar="تواصل">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="lang-toggle" id="langToggle" type="button">عربي</button>
+      <a class="header-contact" href="#contact" data-en="Let's Talk ↗" data-ar="لنتحدث ↗">Let's Talk ↗</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="hero-grid"></div>
+      <div class="hero-orb orb-one"></div>
+      <div class="hero-orb orb-two"></div>
+
+      <div class="hero-copy">
+        <div class="eyebrow"><i></i><span data-en="THE CREATIVE PLAYGROUND" data-ar="مساحة للإبداع بلا حدود">THE CREATIVE PLAYGROUND</span></div>
+
+        <h1>
+          <span data-en="Designing" data-ar="أصمم">Designing</span>
+          <span class="outline-word" data-en="BEYOND" data-ar="ما وراء">BEYOND</span>
+          <span data-en="the frame." data-ar="الإطار.">the frame.</span>
+        </h1>
+
+        <p class="hero-description"
+           data-en="I turn ideas into visual experiences through graphic design, brand identity and creative campaigns."
+           data-ar="أحوّل الأفكار إلى تجارب بصرية مميزة من خلال التصميم الجرافيكي والهويات البصرية والحملات الإبداعية.">
+          I turn ideas into visual experiences through graphic design, brand identity and creative campaigns.
+        </p>
+
+        <div class="hero-buttons">
+          <a class="button button-primary" href="#work">
+            <span data-en="Explore my work" data-ar="اكتشفي أعمالي">Explore my work</span>
+            <span>↗</span>
+          </a>
+          <a class="button button-ghost" href="#about" data-en="More about me" data-ar="المزيد عني">More about me</a>
+        </div>
+
+        <div class="hero-meta">
+          <span>GRAPHIC DESIGN</span>
+          <span>✳</span>
+          <span>BRAND IDENTITY</span>
+          <span>✳</span>
+          <span>SOCIAL MEDIA</span>
+        </div>
+      </div>
+
+      <!-- Floating 3D design cards -->
+      <div class="hero-visual" id="heroVisual">
+        <div class="visual-ring ring-a"></div>
+        <div class="visual-ring ring-b"></div>
+        <div class="visual-glow"></div>
+
+        <div class="float-card float-card-main" data-depth="22">
+          <div class="float-card-top"><span>SELECTED DESIGN</span><span>01 / 04</span></div>
+          <img src="img/casamorati.jpeg" alt="Casamorati campaign design">
+          <div class="float-card-caption"><b>VISUAL STORYTELLING</b><span>✳</span></div>
+        </div>
+
+        <div class="float-card float-card-left" data-depth="38">
+          <img src="img/cerave.jpeg" alt="CeraVe social media design">
+          <span class="mini-label">SOCIAL / 02</span>
+        </div>
+
+        <div class="float-card float-card-right" data-depth="48">
+          <img src="img/giorgio 2.jpeg" alt="Giorgio Armani campaign">
+          <span class="mini-label">CAMPAIGN / 03</span>
+        </div>
+
+        <div class="float-card float-card-bottom" data-depth="30">
+          <img src="img/luma.jpeg" alt="Luma brand identity">
+          <span class="mini-label">IDENTITY / 04</span>
+        </div>
+
+        <div class="floating-chip chip-one">✳ CREATIVE</div>
+        <div class="floating-chip chip-two">DESIGN<br>WITH IMPACT</div>
+        <div class="floating-dot dot-one"></div>
+        <div class="floating-dot dot-two"></div>
+      </div>
+
+      <div class="hero-bottom">
+        <span>SCROLL TO EXPLORE</span>
+        <div class="scroll-line"><span></span></div>
+        <span>01 — 06</span>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about section" id="about">
+      <div class="section-kicker"><span>01</span><i></i><span data-en="A LITTLE INTRODUCTION" data-ar="نبذة بسيطة">A LITTLE INTRODUCTION</span></div>
+
+      <div class="about-layout">
+        <div class="about-heading">
+          <p class="small-purple" data-en="HELLO, I'M MANAL" data-ar="مرحبًا، أنا منال">HELLO, I'M MANAL</p>
+          <h2 data-en="I create visuals that make people <em>feel.</em>" data-ar="أصنع تصاميم تجعل الناس <em>تشعر.</em>">
+            I create visuals that make people <em>feel.</em>
+          </h2>
+        </div>
+
+        <div class="about-text">
+          <p data-en="I'm a graphic designer passionate about creating meaningful visual identities and eye-catching digital experiences. I believe great design is not just about how things look — it's about the story they tell."
+             data-ar="أنا مصممة جرافيك شغوفة بابتكار هويات بصرية مميزة وتجارب رقمية تلفت الانتباه. أؤمن أن التصميم الناجح لا يتعلق بالشكل فقط، بل بالقصة التي يحكيها.">
+            I'm a graphic designer passionate about creating meaningful visual identities and eye-catching digital experiences. I believe great design is not just about how things look — it's about the story they tell.
+          </p>
+          <div class="about-signature">MANAL<span>.</span></div>
+          <span class="about-note" data-en="CREATIVITY IS MY LANGUAGE." data-ar="الإبداع هو لغتي.">CREATIVITY IS MY LANGUAGE.</span>
+        </div>
+      </div>
+
+      <div class="about-stats">
+        <div><strong>01</strong><span data-en="Visual thinking" data-ar="تفكير بصري">Visual thinking</span></div>
+        <div><strong>02</strong><span data-en="Creative direction" data-ar="توجيه إبداعي">Creative direction</span></div>
+        <div><strong>03</strong><span data-en="Attention to detail" data-ar="اهتمام بالتفاصيل">Attention to detail</span></div>
+      </div>
+    </section>
+
+    <!-- WORK -->
+    <section class="work section" id="work">
+      <div class="section-kicker"><span>02</span><i></i><span data-en="THE PORTFOLIO" data-ar="معرض الأعمال">THE PORTFOLIO</span></div>
+
+      <div class="section-heading">
+        <div>
+          <p class="small-purple" data-en="A CURATED COLLECTION" data-ar="مجموعة مختارة من أعمالي">A CURATED COLLECTION</p>
+          <h2 data-en="Selected <em>Works.</em>" data-ar="أعمال <em>مختارة.</em>">Selected <em>Works.</em></h2>
+        </div>
+        <p data-en="A collection of visual ideas, crafted with intention and personality."
+           data-ar="مجموعة من الأفكار البصرية المصممة بعناية وبشخصية مميزة.">
+          A collection of visual ideas, crafted with intention and personality.
+        </p>
+      </div>
+
+      <div class="filter-row" id="workFilters">
+        <button class="filter active" data-filter="all" data-en="All projects" data-ar="كل الأعمال">All projects</button>
+        <button class="filter" data-filter="social" data-en="Social media" data-ar="سوشيال ميديا">Social media</button>
+        <button class="filter" data-filter="advertising" data-en="Advertising" data-ar="إعلانات">Advertising</button>
+        <button class="filter" data-filter="identity" data-en="Branding" data-ar="هويات بصرية">Branding</button>
+        <button class="filter" data-filter="creative" data-en="Creative" data-ar="إبداعي">Creative</button>
+      </div>
+
+      <div class="projects-grid" id="projectsGrid"></div>
+      <div class="work-footer">
+        <span data-en="GOOD DESIGN IS ALWAYS IN THE DETAILS." data-ar="التصميم الجيد يكمن دائمًا في التفاصيل.">GOOD DESIGN IS ALWAYS IN THE DETAILS.</span>
+        <span>✳</span>
+      </div>
+    </section>
+
+    <!-- IDENTITY -->
+    <section class="identity-section section" id="identity">
+      <div class="section-kicker"><span>03</span><i></i><span data-en="BUILDING BRAND WORLDS" data-ar="بناء عوالم العلامات التجارية">BUILDING BRAND WORLDS</span></div>
+      <div class="identity-banner">
+        <div class="identity-copy">
+          <p class="small-purple" data-en="MORE THAN A LOGO" data-ar="أكثر من مجرد شعار">MORE THAN A LOGO</p>
+          <h2 data-en="A brand is a whole <em>feeling.</em>" data-ar="الهوية البصرية <em>إحساس متكامل.</em>">A brand is a whole <em>feeling.</em></h2>
+          <p data-en="From the first idea to the smallest detail, explore visual identities built to be remembered."
+             data-ar="من الفكرة الأولى إلى أدق التفاصيل، اكتشفي هويات بصرية صُممت لتبقى في الذاكرة.">
+            From the first idea to the smallest detail, explore visual identities built to be remembered.
+          </p>
+          <a href="#work" class="text-link" data-en="Explore identity projects ↗" data-ar="استكشفي مشاريع الهوية ↗">Explore identity projects ↗</a>
+        </div>
+        <div class="identity-stack">
+          <div class="identity-tile tile-back"><img src="img/ln1.jpeg" alt="Brand identity design"></div>
+          <div class="identity-tile tile-mid"><img src="img/luma1.jpeg" alt="Luma identity"></div>
+          <div class="identity-tile tile-front"><img src="img/logo.jpeg" alt="Logo design"></div>
+          <span class="identity-stamp">BRAND<br>MATTERS</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- CAMPAIGNS -->
+    <section class="campaigns-section section" id="campaigns">
+      <div class="section-kicker"><span>04</span><i></i><span data-en="BIG IDEAS, COMPLETE STORIES" data-ar="أفكار كبيرة وقصص متكاملة">BIG IDEAS, COMPLETE STORIES</span></div>
+
+      <div class="section-heading">
+        <div>
+          <p class="small-purple" data-en="THE FULL EXPERIENCE" data-ar="التجربة الكاملة">THE FULL EXPERIENCE</p>
+          <h2 data-en="Full <em>Campaigns.</em>" data-ar="حملات <em>متكاملة.</em>">Full <em>Campaigns.</em></h2>
+        </div>
+        <p data-en="Explore each campaign as a complete visual story, not just a single design."
+           data-ar="شاهدي كل حملة كقصة بصرية متكاملة، وليس مجرد تصميم منفرد.">
+          Explore each campaign as a complete visual story, not just a single design.
+        </p>
+      </div>
+
+      <div class="campaign-grid" id="campaignGrid"></div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services section" id="services">
+      <div class="section-kicker"><span>05</span><i></i><span data-en="WHAT I CAN CREATE" data-ar="ما يمكنني تقديمه">WHAT I CAN CREATE</span></div>
+      <div class="section-heading">
+        <div>
+          <p class="small-purple" data-en="MY EXPERTISE" data-ar="مجالات عملي">MY EXPERTISE</p>
+          <h2 data-en="Creative <em>Services.</em>" data-ar="خدمات <em>إبداعية.</em>">Creative <em>Services.</em></h2>
+        </div>
+      </div>
+
+      <div class="services-grid">
+        <article class="service-card"><span>01</span><div class="service-icon">✳</div><h3 data-en="Brand Identity" data-ar="تصميم الهوية البصرية">Brand Identity</h3><p data-en="Distinctive visual identities that express a brand's personality." data-ar="هويات بصرية مميزة تعبّر عن شخصية العلامة التجارية.">Distinctive visual identities that express a brand's personality.</p><b>↗</b></article>
+        <article class="service-card"><span>02</span><div class="service-icon">▧</div><h3 data-en="Social Media Design" data-ar="تصميم السوشيال ميديا">Social Media Design</h3><p data-en="Engaging social visuals designed to capture attention." data-ar="تصميمات جذابة للسوشيال ميديا تلفت الانتباه.">Engaging social visuals designed to capture attention.</p><b>↗</b></article>
+        <article class="service-card"><span>03</span><div class="service-icon">◈</div><h3 data-en="Advertising Campaigns" data-ar="الحملات الإعلانية">Advertising Campaigns</h3><p data-en="Creative campaign concepts with a consistent visual direction." data-ar="أفكار حملات إبداعية ذات اتجاه بصري متناسق.">Creative campaign concepts with a consistent visual direction.</p><b>↗</b></article>
+        <article class="service-card"><span>04</span><div class="service-icon">◇</div><h3 data-en="Print & Packaging" data-ar="المطبوعات والتغليف">Print & Packaging</h3><p data-en="Thoughtful designs that bring brands into the real world." data-ar="تصميمات مدروسة تنقل العلامات التجارية إلى الواقع.">Thoughtful designs that bring brands into the real world.</p><b>↗</b></article>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact section" id="contact">
+      <div class="contact-glow"></div>
+      <div class="section-kicker"><span>06</span><i></i><span data-en="HAVE A PROJECT IN MIND?" data-ar="هل لديك مشروع في ذهنك؟">HAVE A PROJECT IN MIND?</span></div>
+      <p class="small-purple" data-en="LET'S CREATE SOMETHING MEMORABLE" data-ar="لنصنع شيئًا لا يُنسى">LET'S CREATE SOMETHING MEMORABLE</p>
+      <h2 data-en="Let's make your<br><em>idea visible.</em>" data-ar="لنجعل فكرتك<br><em>مرئية ومميزة.</em>">Let's make your<br><em>idea visible.</em></h2>
+      <a class="contact-email" href="https://wa.me/201025434862" target="_blank" rel="noopener">
+        <span data-en="Start a conversation" data-ar="ابدئي محادثة">Start a conversation</span><b>↗</b>
+      </a>
+      <div class="contact-details">
+        <a href="https://wa.me/201025434862" target="_blank" rel="noopener">WHATSAPP · 01025434862</a>
+        <a href="https://www.facebook.com/share/1DxUS546Jx/?mibextid=wwXIfr" target="_blank" rel="noopener">FACEBOOK ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="footer-brand" href="#home">MANAL<span>.</span></a>
+    <p data-en="Designed with intention. Created with passion." data-ar="صُمم بشغف، ونُفذ بإبداع.">Designed with intention. Created with passion.</p>
+    <span>© <span id="year"></span> MANAL — ALL RIGHTS RESERVED.</span>
+  </footer>
+
+  <!-- PROJECT MODAL -->
+  <div class="modal" id="projectModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-panel">
+      <button class="modal-close" data-close-modal aria-label="Close">×</button>
+      <div class="modal-topline"><span id="modalType">PROJECT</span><span id="modalCount"></span></div>
+      <h2 id="modalTitle">Project title</h2>
+      <p id="modalDescription"></p>
+      <div class="modal-gallery" id="modalGallery"></div>
+    </div>
+  </div>
+
+  <!-- CAMPAIGN MODAL -->
+  <div class="modal" id="campaignModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close-campaign></div>
+    <div class="modal-panel campaign-modal-panel">
+      <button class="modal-close" data-close-campaign aria-label="Close">×</button>
+      <div class="modal-topline"><span>COMPLETE CAMPAIGN</span><span id="campaignCount"></span></div>
+      <h2 id="campaignTitle">Campaign title</h2>
+      <p id="campaignDescription"></p>
+      <div class="modal-gallery" id="campaignGallery"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
